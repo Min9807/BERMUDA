@@ -17,13 +17,13 @@
 ---
 
 ### 개체-관계 모델(ERD)
-<img width="4800" height="800" alt="아키텍처" src="https://user-images.githubusercontent.com/97437403/204760631-b69fe7a4-6d4a-4d70-9290-bacf5444f043.png">
+<img width="4500" height="800" alt="아키텍처" src="https://user-images.githubusercontent.com/97437403/204760631-b69fe7a4-6d4a-4d70-9290-bacf5444f043.png">
 
 
 
 # 서비스 설명
 ### 홈화면
-<img width="500" height="600" alt="아키텍처" src="https://user-images.githubusercontent.com/97437403/204762444-ac3ffda3-9c0c-455b-bd37-bec92b79ae09.jpg">
+<img width="400" height="600" alt="아키텍처" src="https://user-images.githubusercontent.com/97437403/204762444-ac3ffda3-9c0c-455b-bd37-bec92b79ae09.jpg">
 
 사용자주변에 있는 일기장을 확인할 수 있는 곳이다. 일기장의 시그니처 음악을 들을 수 있으며 맘에 드는 일기장은 좋아요 기능을 통해서 따로 저장이 가능하다.
 <br><br><br><br><br><br><br>
@@ -32,7 +32,7 @@
 
 
 ### 일기장 작성
-<img width="500" height="600" alt="아키텍처" src="https://user-images.githubusercontent.com/97437403/204762882-6dff89d2-88fe-48c4-847a-a400432aa190.jpg">
+<img width="400" height="600" alt="아키텍처" src="https://user-images.githubusercontent.com/97437403/204762882-6dff89d2-88fe-48c4-847a-a400432aa190.jpg">
 
 일기장을 작성하는 곳이다. 비공개 기능을 통해 다른 사용자들이 일기를 못보게 할 수 있다.
 <br><br><br><br><br><br><br>
