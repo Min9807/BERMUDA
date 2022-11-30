@@ -9,7 +9,8 @@
 
 
 
-# 📂프로젝트 구성
+# 📅개발 기간
+22.07 ~ 22.10
 
 ### 아키텍처(Architecture)
 <img width="4800" height="800" alt="아키텍처" src="https://user-images.githubusercontent.com/97437403/204760541-fbe38bc3-b8e3-420c-b611-7582198913c6.png">
@@ -18,6 +19,9 @@
 
 ### 개체-관계 모델(ERD)
 <img width="4500" height="800" alt="아키텍처" src="https://user-images.githubusercontent.com/97437403/204760631-b69fe7a4-6d4a-4d70-9290-bacf5444f043.png">
+
+
+# 📂프로젝트 구성
 
 
 
