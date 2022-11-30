@@ -10,7 +10,6 @@
 
 
 # 📂프로젝트 구성
-22.07 ~ 22.10
 
 ### 아키텍처(Architecture)
 <img width="4800" height="800" alt="아키텍처" src="https://user-images.githubusercontent.com/97437403/204760541-fbe38bc3-b8e3-420c-b611-7582198913c6.png">
