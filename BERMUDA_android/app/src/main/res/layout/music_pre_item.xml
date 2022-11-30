@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".menu_page1.Main1Fragment"
+    android:id="@+id/cardview_layout">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/music_pre_cv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="11dp"
+            android:layout_marginLeft="18.3dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginRight="18.7dp"
+            app:cardBackgroundColor="#EFEFEF"
+            app:cardCornerRadius="7dp"
+            tools:ignore="MissingConstraints">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10sp"
+                android:padding="5sp">
+
+                <TextView
+                    android:id="@+id/music_pre_title_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15sp"
+                    android:text="제목"
+                    android:textColor="@color/black_2"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@+id/music_pre_nickname_tv"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <CheckBox
+                    android:id="@+id/music_pre_cb"
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="4sp"
+                    android:button="@drawable/volume_checkbox"
+                    android:layout_marginEnd="20sp"
+                    android:paddingStart="7dp"
+                    android:scaleType="fitStart"
+                    android:textSize="14sp"
+                    app:layout_constraintBottom_toTopOf="@+id/music_pre_nickname_tv"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <TextView
+                    android:id="@+id/music_pre_nickname_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15sp"
+                    android:layout_marginEnd="15sp"
+                    android:layout_marginBottom="3sp"
+                    android:paddingStart="8sp"
+                    android:paddingEnd="8sp"
+                    android:paddingTop="3sp"
+                    android:paddingBottom="3sp"
+                    android:text="작곡가"
+                    android:textColor="@color/black_2"
+                    android:textSize="18sp"
+                    app:layout_constraintBottom_toBottomOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+</LinearLayout>

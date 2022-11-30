@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="music">
+        <item>음악 분위기</item>
+        <item>밝음</item>
+        <item>중간</item>
+        <item>어두움</item>
+    </string-array>
+</resources>

@@ -1,0 +1,48 @@
+git init
+
+git remote add origin git@github.com:rememBERMUsicDiAry/BERMUDA_android.git
+
+
+git add .
+git commit –m “ 어쩌구 commit”
+git push origin HEAD:main
+
+git pull origin main
+
+@@ git push origin HEAD:main --force   //강제 푸쉬
+______________________________________________________
+@@ 공통 @@
+
+캐시를 통하여 로그인 정보가 얼마나 길게 남을지 작성해야함.
+
+음악분위기, 제목 text
+음악 파일 선택 해서 업로드 시키게
+
+______________________________________________________
+@@@@@@@@ 윤호
+아이디 찾기 - 이메일, 이름
+비밀번호 찾기 - 아이디, 이메일 , 이름
+
+
+______________________________________________________
+@@@@@@@@ 태석
+
+현재 작성하던 페이지는 지우기 - 이게 잘 안되네
+
+
+
+______________________________________________________
+@@참고링크@@
+
+https://www.youtube.com/watch?v=hfoXhiMTc0c     - 로그인, 회원가입 창 열리는 모션 유튜브
+
+https://www.youtube.com/watch?v=iA9iqygq11Q         - 슬라이드 유튜브
+
+https://www.youtube.com/watch?v=fws4f8RE7lY         - fragment to NewActivity
+ ㄴ 이사람 유튜브에서 메뉴창 열리는거 참고해도 좋을듯
+
+ https://curryyou.tistory.com/397                   - 버튼 디자인
+ https://curryyou.tistory.com/395                   - 버튼 커스텀
+
+
+--------------------------------------------------

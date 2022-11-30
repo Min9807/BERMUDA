@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--버튼이 눌리지 않았을때-->
+    <item android:state_checked="false"
+        android:color="#353535">
+    </item>
+
+    <!--버튼이 눌렸을 때-->
+    <item android:state_checked="true"
+        android:color="#FFFFFF">
+    </item>
+</selector>

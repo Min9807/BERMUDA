@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_sidemenu"
+    app:startDestination="@id/main4Fragment">
+
+
+    <fragment
+        android:id="@+id/main4Fragment"
+        android:name="com.diary.bermuda.menu_page4.Main4Fragment"
+        android:label="fragment_main4"
+        tools:layout="@layout/fragment_main4" >
+        <action
+            android:id="@+id/action_main4Fragment_to_main4_sidemenu_1"
+            app:destination="@id/main4_sidemenu_1" />
+        <action
+            android:id="@+id/action_main4Fragment_to_main4_sidemenu_2"
+            app:destination="@id/main4_sidemenu_2" />
+        <action
+            android:id="@+id/action_main4Fragment_to_main4_sidemenu_3"
+            app:destination="@id/main4_sidemenu_3" />
+        <action
+            android:id="@+id/action_main4Fragment_to_main4_sidemenu_4"
+            app:destination="@id/main4_sidemenu_4" />
+    </fragment>
+    <fragment
+        android:id="@+id/main4_sidemenu_1"
+        android:name="com.diary.bermuda.menu_page1.Main4_sidemenu_1"
+        android:label="Main4_sidemenu_1" />
+    <fragment
+        android:id="@+id/main4_sidemenu_2"
+        android:name="com.diary.bermuda.menu_page1.Main4_sidemenu_2"
+        android:label="Main4_sidemenu_2" />
+    <fragment
+        android:id="@+id/main4_sidemenu_3"
+        android:name="com.diary.bermuda.menu_page1.Main4_sidemenu_3"
+        android:label="Main4_sidemenu_3" />
+    <fragment
+        android:id="@+id/main4_sidemenu_4"
+        android:name="com.diary.bermuda.menu_page1.Main4_sidemenu_4"
+        android:label="Main4_sidemenu_4" />
+</navigation>
+

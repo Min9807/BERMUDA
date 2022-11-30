@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageButton
+            android:id="@+id/btn_subMenu"
+            android:layout_width="35sp"
+            android:layout_height="35sp"
+            android:layout_marginTop="25sp"
+            android:layout_marginEnd="25sp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_menu"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="@color/black" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/profile_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80sp"
+            app:cardCornerRadius="50dp"
+            app:cardElevation="2dp"
+            app:strokeColor="@color/button_background"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/profile_photo2"
+                android:layout_width="120sp"
+                android:layout_height="120sp"
+                android:background="@drawable/user"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/profile_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:textSize="22sp"
+            android:textColor="@color/black_2"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/profile_photo" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+            <!-- 버튼 아이콘 수정하고 싶으면 drawable 가서
+             drawable_left_size_custom 1,2,3,4 골라서 수정하면 돼-->
+            <Button
+                android:id="@+id/diary_list"
+                android:layout_width="match_parent"
+                android:layout_height="80sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="15sp"
+                android:layout_marginTop="5sp"
+                android:layout_marginEnd="15sp"
+                android:layout_marginBottom="15sp"
+                android:background="@drawable/btn_frag4"
+                android:drawableLeft="@drawable/drawable_left_size_custom1"
+                android:drawableTint="@color/color_text"
+                android:paddingTop="10sp"
+                android:paddingBottom="10sp"
+                android:text="일기 리스트"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/music_preview"
+                android:layout_width="match_parent"
+                android:layout_height="80sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="15sp"
+                android:layout_marginTop="15sp"
+                android:layout_marginEnd="15sp"
+                android:layout_marginBottom="15sp"
+                android:background="@drawable/btn_frag4"
+                android:drawableLeft="@drawable/drawable_left_size_custom2"
+                android:drawableTint="@color/color_text"
+                android:paddingTop="10sp"
+                android:paddingBottom="10sp"
+                android:text="음원 미리듣기"
+                android:textStyle="bold"
+                app:icon="@drawable/ic_launcher_foreground" />
+
+<!--            <Button-->
+<!--                android:id="@+id/liked_list"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="80sp"-->
+<!--                android:layout_gravity="center_horizontal"-->
+<!--                android:layout_marginStart="15sp"-->
+<!--                android:layout_marginTop="15sp"-->
+<!--                android:layout_marginEnd="15sp"-->
+<!--                android:layout_marginBottom="30sp"-->
+<!--                android:background="@drawable/btn_frag4"-->
+<!--                android:drawableLeft="@drawable/drawable_left_size_custom4"-->
+<!--                android:drawableTint="@color/color_text"-->
+<!--                android:paddingTop="10sp"-->
+<!--                android:paddingBottom="10sp"-->
+<!--                android:text="저장된 목록"-->
+<!--                android:textStyle="bold"-->
+<!--                app:icon="@drawable/ic_launcher_foreground" />-->
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</LinearLayout>

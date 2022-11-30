@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="button_background">#A9ABB1</color>
+    <color name="bright_button">#E6E6E6</color>          <!--버튼 배경색상-->
+    <color name="background">#E6E6E6</color>            <!-- 기본배경 (거의 힌색)-->
+    <color name="bright_background">#E1E1E1</color>
+    <color name="color_Skin">#C5AA59</color>             <!--이건 뭐더라-->
+    <color name="color_text">#656565</color>            <!-- text 컬러 -->
+    <color name="gray_background">#DFDFDF</color>
+
+    <!--당연한 컬러 색상들-->
+    <color name="yellow">#F9E000</color>                <!-- 카카오 색상-->
+    <color name="black">#FF000000</color>
+    <color name="black_2">#3C3C3C</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_2">#F1F1F1</color>
+    <color name="blue">#2196F3</color>
+    <color name="blue_2">#1976D2</color>                <!--조금 진한 파랑?-->
+    <color name="red">#FF5252</color>
+
+
+
+    <!--원래 있던 기본 색상-->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+
+
+</resources>
