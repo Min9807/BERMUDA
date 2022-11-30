@@ -23,13 +23,13 @@
 
 # 서비스 설명
 ### 홈화면
-<img width="800" height="800" alt="아키텍처" src="https://user-images.githubusercontent.com/97437403/204762444-ac3ffda3-9c0c-455b-bd37-bec92b79ae09.jpg">
+<img width="500" height="800" alt="아키텍처" src="https://user-images.githubusercontent.com/97437403/204762444-ac3ffda3-9c0c-455b-bd37-bec92b79ae09.jpg">
 
 
 ### 일기장 작성
-<img width="800" height="800" alt="아키텍처" src="https://user-images.githubusercontent.com/97437403/204762882-6dff89d2-88fe-48c4-847a-a400432aa190.jpg">
+<img width="500" height="800" alt="아키텍처" src="https://user-images.githubusercontent.com/97437403/204762882-6dff89d2-88fe-48c4-847a-a400432aa190.jpg">
 
 
 ### 마이페이지
-<img width="800" height="800" alt="아키텍처" src="[https://user-images.githubusercontent.com/97437403/204763196-4eba120a-49c1-4447-950d-0424613499b8.png](https://user-images.githubusercontent.com/97437403/204763707-e288826c-9d7f-43b8-acfe-0441eb9bd9f6.png)"
+<img width="500" height="800" alt="아키텍처" src="[https://user-images.githubusercontent.com/97437403/204763196-4eba120a-49c1-4447-950d-0424613499b8.png](https://user-images.githubusercontent.com/97437403/204763707-e288826c-9d7f-43b8-acfe-0441eb9bd9f6.png)">
 
