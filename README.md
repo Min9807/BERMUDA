@@ -26,7 +26,7 @@
 <img width="500" height="800" alt="아키텍처" src="https://user-images.githubusercontent.com/97437403/204762444-ac3ffda3-9c0c-455b-bd37-bec92b79ae09.jpg">
 
 사용자주변에 있는 일기장을 확인할 수 있는 곳이다. 일기장의 시그니처 음악을 들을 수 있으며 맘에 드는 일기장은 좋아요 기능을 통해서 따로 저장이 가능하다.
-<br><br><br>
+<br><br><br><br><br><br><br><br><br>
 
 
 
